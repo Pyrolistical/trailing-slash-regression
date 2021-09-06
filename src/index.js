@@ -5,6 +5,8 @@
 
 import confetti from 'canvas-confetti';
 
+document.getElementById('message').textContent = 'loaded /index.js';
+
 confetti.create(document.getElementById('canvas'), {
   resize: true,
   useWorker: true,
